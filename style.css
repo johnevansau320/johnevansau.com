@@ -113,6 +113,14 @@ nav a:hover { color: var(--amber); }
 .step h4 { font: 700 21px/1.15 "Barlow Condensed", sans-serif; text-transform: uppercase; color: var(--white); margin: 0 0 8px; }
 .step p { font-size: 15.5px; color: #c3cad3; margin: 0; }
 
+/* ------------------------------------------------------------------ support */
+.support { display: flex; gap: 24px; align-items: flex-start; background: linear-gradient(180deg, var(--panel), var(--asphalt-2)); border: 1px solid var(--panel-edge); border-left: 4px solid var(--amber); border-radius: 14px; padding: 28px; }
+.support .sec-lead { margin-bottom: 22px; }
+.cup { flex: none; width: 76px; height: 76px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(245, 179, 1, 0.08); border: 1px solid rgba(245, 179, 1, 0.35); }
+nav a.nav-coffee { color: #15120a; background: var(--amber); padding: 6px 12px; border-radius: 6px; }
+nav a.nav-coffee:hover { color: #15120a; background: #ffc629; }
+@media (max-width: 520px) { .support { flex-direction: column; padding: 20px; } .cup { width: 60px; height: 60px; } }
+
 /* ------------------------------------------------------------------ footer */
 .foot { border-top: 1px solid var(--panel-edge); background: #0c0e11; padding: 30px 0 40px; color: var(--dim); font-size: 15px; }
 .foot p { margin: 0 0 6px; }
