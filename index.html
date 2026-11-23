@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Free ETS2 &amp; ATS Apps and Mods: GPS, Mod Manager, Tachograph</title>
-<meta name="description" content="Free companion apps and mods for Euro Truck Simulator 2 and American Truck Simulator: a GPS with lane guidance, a digital instrument cluster, a tachograph, a mod manager, and truck mods.">
+<title>Free ETS2 &amp; ATS Apps and Mods: GPS, AI Dispatcher, Mod Manager</title>
+<meta name="description" content="Free companion apps and mods for Euro Truck Simulator 2 and American Truck Simulator: a GPS with lane guidance, an AI radio dispatcher with CB chatter, a digital instrument cluster, a tachograph, a mod manager, and truck mods.">
 <link rel="canonical" href="https://johnevansau.com/">
 <link rel="icon" href="favicon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Truck Sim Apps &amp; Mods">
 <meta property="og:url" content="https://johnevansau.com/">
 <meta property="og:title" content="Free ETS2 &amp; ATS Apps and Mods">
-<meta property="og:description" content="A GPS with lane guidance, a digital instrument cluster, a tachograph, a mod manager and truck mods for Euro Truck Simulator 2 and American Truck Simulator. All free, no account, no ads.">
+<meta property="og:description" content="A GPS with lane guidance, an AI radio dispatcher, a digital instrument cluster, a tachograph, a mod manager and truck mods for Euro Truck Simulator 2 and American Truck Simulator. All free, no account, no ads.">
 <meta property="og:image" content="https://johnevansau.com/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -32,9 +32,20 @@
       "description": "A GPS with lane guidance for Euro Truck Simulator 2 and American Truck Simulator that runs beside the game, on Windows, Android or in a browser.",
       "applicationCategory": "GameApplication",
       "operatingSystem": "Windows, Android",
-      "softwareVersion": "1.12.1 (Windows), 1.14.1 (Android)",
+      "softwareVersion": "1.13.0 (Windows), 1.14.1 (Android)",
       "downloadUrl": "https://github.com/johnevansau320/ETS2-ATS-GPS-Win/releases",
       "screenshot": "https://johnevansau.com/img/gps-windows.jpg",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "TS Dispatch",
+      "description": "An AI truck dispatcher and CB radio for American Truck Simulator and Euro Truck Simulator 2: it follows your job, calls you on the radio and answers when you talk to it, with a tablet mirror app.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Windows, Android",
+      "softwareVersion": "1.0.0",
+      "downloadUrl": "https://github.com/johnevansau320/TS-Dispatch/releases",
+      "screenshot": "https://johnevansau.com/img/dispatch.jpg",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
     },
     {
@@ -95,7 +106,7 @@
   <div class="wrap">
     <p class="kicker">Euro Truck Simulator 2 · American Truck Simulator</p>
     <h1>Free apps and mods<br>for the long haul</h1>
-    <p class="lead">A GPS with lane guidance that runs beside the game, a digital instrument cluster, a driver-hours tachograph, a mod manager, and a handful of truck mods. All free, no account, no ads.</p>
+    <p class="lead">A GPS with lane guidance that runs beside the game, an AI dispatcher on the radio, a digital instrument cluster, a driver-hours tachograph, a mod manager, and a handful of truck mods. All free, no account, no ads.</p>
     <div class="hero-btns">
       <a class="btn btn-amber" href="#apps">See the apps</a>
       <a class="btn btn-ghost" href="#mods">Browse the mods</a>
@@ -109,7 +120,7 @@
 <!-- ================================================================ APPS -->
 <section id="apps" class="wrap section">
   <h2 class="sec-title"><span class="sign">APPS</span> Companion apps</h2>
-  <p class="sec-lead">The GPS, the cluster and the tachograph read live data from the game through the free <a href="https://github.com/TruckSim-GPS/trucksim-gps-server">TruckSim GPS Telemetry Server</a>, which must be running while you play (see <a href="#start">Getting started</a>). They never change the game.</p>
+  <p class="sec-lead">The GPS, the dispatcher, the cluster and the tachograph read live data from the game through the free <a href="https://github.com/TruckSim-GPS/trucksim-gps-server">TruckSim GPS Telemetry Server</a>, which must be running while you play (see <a href="#start">Getting started</a>). They never change the game.</p>
 
   <!-- GPS -->
   <article class="app">
@@ -117,7 +128,7 @@
       <img class="app-icon" src="img/gps-icon.png" alt="" width="64" height="64">
       <div>
         <h3>ETS2-ATS GPS</h3>
-        <p class="tags"><span>ETS2</span><span>ATS</span><span>Windows 1.12.1</span><span>Android 1.14.1</span><span>iPad / browser</span></p>
+        <p class="tags"><span>ETS2</span><span>ATS</span><span>Windows 1.13.0</span><span>Android 1.14.1</span><span>iPad / browser</span></p>
       </div>
     </div>
     <div class="app-body">
@@ -128,19 +139,52 @@
           <li>Routes to your job, to the pickup of a Freight Market job, or anywhere on the map</li>
           <li>Lane guidance, roundabout exits, flyovers in 3D, road shields and speed limits</li>
           <li>Nearest fuel, rest area, service, weigh station, dealer or ferry</li>
-          <li>Voice control in Windows: "GPS, take the job", "minimize", "how far"</li>
+          <li>Voice control in Windows: "GPS, take the job", "minimize", "how far", with push to talk on a wheel button</li>
+          <li>Takes turns speaking with TS Dispatch, and always goes first</li>
           <li>Trip planner, saved trips, Heavy / Fast / Tour routing</li>
           <li>Metric or imperial units in either game</li>
         </ul>
         <div class="dl">
-          <a class="btn btn-amber" href="https://github.com/johnevansau320/ETS2-ATS-GPS-Win/releases/download/v1.12.1/Ets2GpsSetup-1.12.1.exe">Windows setup</a>
+          <a class="btn btn-amber" href="https://github.com/johnevansau320/ETS2-ATS-GPS-Win/releases/download/v1.13.0/Ets2GpsSetup-1.13.0.exe">Windows setup</a>
           <a class="btn btn-amber" href="https://github.com/johnevansau320/ETS2-ATS-GPS/releases/download/v1.14.1/ETS2GPS-v1.14.1.apk">Android app</a>
-          <a class="btn btn-ghost" href="https://github.com/johnevansau320/ETS2-ATS-GPS-Win/releases/download/v1.12.1/ETS2-GPS-User-Guide.pdf">User guide (PDF)</a>
+          <a class="btn btn-ghost" href="https://github.com/johnevansau320/ETS2-ATS-GPS-Win/releases/download/v1.13.0/ETS2-GPS-User-Guide.pdf">User guide (PDF)</a>
         </div>
         <p class="note">The Windows setup also installs the <b>lane overlay</b>: a small always-on-top lane panel for over the game. iPad, iPhone and any browser use the web version served by the Windows app. <a href="https://github.com/johnevansau320/ETS2-ATS-GPS-Win/releases">All Windows releases</a> · <a href="https://github.com/johnevansau320/ETS2-ATS-GPS/releases">All Android releases</a></p>
       </div>
     </div>
     <figure class="shot shot-wide"><img src="img/gps-android.jpg" alt="The Android app on a tablet, with lane arrows and a roundabout ahead" width="1200" height="720" loading="lazy"><figcaption>The Android app on a tablet</figcaption></figure>
+  </article>
+
+  <!-- Dispatch -->
+  <article class="app">
+    <div class="app-head">
+      <img class="app-icon" src="img/dispatch-icon.png" alt="" width="64" height="64">
+      <div>
+        <h3>TS Dispatch</h3>
+        <p class="tags"><span>ETS2</span><span>ATS</span><span>Windows 1.0.0</span><span>Android tablet 1.0.0</span></p>
+      </div>
+    </div>
+    <div class="app-body">
+      <figure class="shot"><img src="img/dispatch.jpg" alt="The TS Dispatch window: the current load on the left with a CB radio and its on light, the radio log with dispatcher, driver and chatter lines on the right" width="900" height="480" loading="lazy"></figure>
+      <div class="app-text">
+        <p>A dispatcher who follows your actual job and calls you on the radio, plus truckers chatting on the CB. Hold a wheel button and talk back: dispatch answers, and the CB drivers chat with you.</p>
+        <ul class="ticks">
+          <li>Calls when you take a job, run late, take damage, run low on fuel, get close and deliver</li>
+          <li>Uses your name and the real facts of your job, never made-up ones</li>
+          <li>CB chatter: American CB in ATS, European lorry drivers in ETS2</li>
+          <li>Push to talk on your wheel; your voice is turned into text on your PC and never stored</li>
+          <li>Takes turns with the ETS2-ATS GPS, so they never talk over each other</li>
+          <li>Tablet app mirrors the load and the radio log beside the wheel</li>
+        </ul>
+        <div class="dl">
+          <a class="btn btn-amber" href="https://github.com/johnevansau320/TS-Dispatch/releases/download/v1.0.0/TSDispatchSetup-1.0.0.exe">Windows setup</a>
+          <a class="btn btn-amber" href="https://github.com/johnevansau320/TS-Dispatch/releases/download/v1.0.0/TSDispatch-1.0.0.apk">Android tablet app</a>
+          <a class="btn btn-ghost" href="https://github.com/johnevansau320/TS-Dispatch/releases/download/v1.0.0/TSDispatch-portable-1.0.0.zip">Windows portable (zip)</a>
+          <a class="btn btn-ghost" href="https://github.com/johnevansau320/TS-Dispatch#readme">Read more</a>
+        </div>
+        <p class="note">The dispatcher's words come from Claude (Anthropic), so it needs your own Claude API key with prepaid credit (a Claude chat subscription does not include it): about a few cents for an evening of driving. Without a key it uses built-in lines. <a href="https://github.com/johnevansau320/TS-Dispatch/releases">All releases</a></p>
+      </div>
+    </div>
   </article>
 
   <!-- Cluster -->
@@ -277,6 +321,11 @@
       <h4>ProMods Canada BC fix for Alaska NTTF</h4>
       <p>With <i>Alaska – North to the Future</i> and ProMods Canada together, British Columbia's towns lose their province. This patch fixes it. Place it above ProMods Canada.</p>
       <a class="btn btn-amber btn-sm" href="downloads/ats/zz_ProMods_BC_Alaska_NTTF_Fix.scs" download>Download · 1 KB</a>
+    </div>
+    <div class="mod">
+      <h4>Box trailer downlights</h4>
+      <p>Soft yellow downlights under the 53 ft reefer, dry van and insulated box trailer (US markers), four a side plus the back corners, on with the running lights. For an owned trailer: choose <i>Markers + downlights</i> in its Markers upgrades.</p>
+      <a class="btn btn-amber btn-sm" href="downloads/ats/kj_box53_downlights.scs" download>Download · 27 KB</a>
     </div>
   </div>
 
